@@ -1,0 +1,45 @@
+body {
+  background-image: https://wallpaperaccess.com/full/20993.jpg;
+  text-align: center;
+  border: yellow;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: larger;
+}
+
+h2 {
+  font-family: fantasy;
+}
+
+p {
+  font-family: cursive;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  border-right: 2px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.currentpage {
+	background-color: yellow;
+}
