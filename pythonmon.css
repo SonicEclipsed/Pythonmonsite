@@ -6,7 +6,6 @@ body {
 
 h1 {
   font-family: fantasy;
-  font-size: larger;
 }
 
 h2 {
@@ -15,8 +14,8 @@ h2 {
 
 p {
   font-family: cursive;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 ul {
