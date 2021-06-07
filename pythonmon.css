@@ -6,16 +6,22 @@ body {
 
 h1 {
   font-family: fantasy;
+  font-size: 50px;
+  color: forestgreen
 }
 
 h2 {
   font-family: fantasy;
+  font-size: 40px;
+  color: darkslateblue
 }
 
 p {
   font-family: cursive;
   margin-right: 300px;
   margin-left: 300px;
+  font-size: 35px;
+  color: gold
 }
 
 ul {
