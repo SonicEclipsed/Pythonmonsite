@@ -16,33 +16,64 @@
     <p>
         Pokémon is the best selling video game franchise in the world and it has been going strong for 25 years! With this program, you can experience the unique battles of Pokémon 
         like never before in Python! This simulator will allow you to choose from 20+ Pokémon from the first 6 generations of the series to fight against an opponent! 
-        To make things more spicy, the IVs and EVs of each Pokémon will be randomized!
+        To make things more spicy, the IVs, EVs, and nature of every Pokémon will be randomized at the start of each game!
     </p>
     </li>
     <li>
       <h3>Instructions</h3>
       <p>
-
+        After inputting "1" to play, you will be greeted into the world of Pythonmon and will have 
+        the choice to choose one of 20 Pokémon. You will be greeted into Pythontown, where you can look 
+        for enemy Pokémon to battle against by inputting "1", check your items and Pokédollars by inputting "2", 
+        heal your Pokémon at the Pokécenter by inputting "3", purchase items with Pokédollars at the Pokémart by 
+        inputting "4", or exiting the game by inputting "5". In battle, you can choose to input "1" and use 
+        one of your Pokémon's four available moves, input "2" to use an item from your bag, or input "3" to run 
+        away from the battle. We hope you enjoy Pythonmon!
       </p>
     </li>
     <li>
       <h3>How it works</h3>
       <p>
-          In Pythonmon, every battle will be unique! The IVs and EVs of each Pokémon 
-        will be completely random! In each battle, the player will fight against an opposing Pokémon. Every turn, the opposing Pokémon will use a random move in its moveset.
+          In Pythonmon, every game will be unique! The IVs, EVs, and nature of each Pokémon 
+        will be completely random! In each battle, the player will fight against an opposing Pokémon with 
+        one of their four moves. Each move has a type, power, accuracy, and some have distinct effects. The damage of a move depends on 
+        its power and its accuracy is how likely the move will activate successfully. Like moves, each Pokémon 
+        also has at least one type. A move can have its damage doubled, quadruple, halved, do only a quarter of 
+        how much it would normally deal, or completely nullified depending on how effective its type is against 
+        the opposing Pokémon's type(s). Some moves have special effects like inflicting a status on the opponent. 
+        Every turn, the opposing Pokémon will use a random move out of the four in its moveset. 
+        Whether or not you will be able to run away from your opponent will depend on if 
+        you Pokémon is faster than the opponent or not. The speed stats of both Pokémon will be compared and 
+        you can run away successfully if your Pokémon is faster. At the Pokécenter, the HP (health points) of 
+        your Pokémon will be completely replenished to its max. At the Pokémart, you can use the Pokédollars 
+        you've earned from battles to buy healing items to use on your Pokémon in battle. Hyper Potions heal 
+        200 HP, Super Potions heal 60 HP, and Potions heal 20 HP. 
       </p>
     </li>
     <li>
-      <h3>Filess</h3>
-      <p>
-
-      </p>
+      <h3>Files</h3>
+      <ul>
+        <li>battleandstatcalculations.py: Python program where the math for the stats of each Pokémon and how they relate to 
+        damage taken or dealt in battle are done.</li>
+        <li>csv_helper.py: Python program where the csv files we are using are manipulated to function with our program.</li>
+        <li>effectiveness_helper.py: Python program where the math for type advantages and disadvantages of moves and Pokémon 
+          are done</li>
+        <li>final.html: This html file. Contains information about the program.</li>
+        <li>logo2.txt: A txt file to be loaded into Python to show the logo of the program.</li>
+        <li>main.py: Python program the user uses to run the whole program and input selections.</li>
+        <li>moves.csv: A csv file to be loaded into csv_helper.py in order to make moves function in the program.</li>
+        <li>pokemon.csv: A csv file to be loaded into csv_helper.py in order to make Pokémon, their types, and their moves function in the program.</li>
+        <li>pythonmon.css: The CSS stylesheet for this html website.</li>
+        <li>tinygamemechanics.py: Python program where some moves and battle mechanics are done</li>
+      </ul>
     </li>
     <li>
       <h3>Resources</h3>
-      <p>
-
-      </p>
+      <ul>
+        <li>moves.csv: A csv file containing the names of moves and their properties from https://github.com/veekun/pokedex/blob/master/pokedex/data/csv/moves.csv</li>
+        <li>pokemon.csv: A csv file containing the names of Pokémon and their properties from https://gist.github.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6</li>
+        <li>bulbapedia: A Pokémon encyclopedia that helped with calculations for moves, damage, stats, and general information about the series https://bulbapedia.bulbagarden.net/</li>
+      </ul>
     </li>
     <li>
       <h3>Bugs, Errors, and Things to be Aware of</h3>
