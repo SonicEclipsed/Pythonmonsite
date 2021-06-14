@@ -1,0 +1,2 @@
+Link to the Github repository of the website: https://github.com/SonicEclipsed/Pythonmonsite
+Link to the website itself: https://soniceclipsed.github.io/Pythonmonsite/final.html
